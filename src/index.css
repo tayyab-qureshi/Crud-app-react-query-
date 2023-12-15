@@ -24,6 +24,6 @@ code {
   background-image: url(../public/background.jpg);
   background-position: center;
   background-size: cover;
-  height: auto;
+  min-height: 100vh;
   width: auto;
 }

@@ -68,10 +68,10 @@ const updateMutation = useMutation({
 
 
   return (
-    <div className='w-5/5 py-10'>
     <div className="w-3/5 mx-auto px-6 bg-black bg-opacity-60 shadow-lg rounded-md">
       <h1 className="text-4xl font-bold py-8 text-center text-pink-900">Todo List</h1>
-      <div className="mb-4 flex">
+    <div className='w-5/5 py-10 '>
+      <div className="mb-4 flex ">
         <input
           type="text"
           className="border py-2 px-5 text-lg w-full rounded"
@@ -103,7 +103,7 @@ const updateMutation = useMutation({
             key={todo.id}
             className="flex justify-between items-center border-b py-2"
           >
-            <div className='flex gap-2 items-center'>
+            <div className='flex gap-2 items-center '>
             <span className='text-pink-900 font-semibold text-xl'>{i+1}--</span>
             <span className='text-pink-200 font-semibold text-xl'>{todo.task}</span>
 
