@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  background-image: url(../public/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
